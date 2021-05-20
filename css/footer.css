@@ -1,0 +1,86 @@
+/* ---- ---- ---- FOOTER ---- ---- ---- */
+footer {
+    background: #0B0B0B;
+    color: #fff;
+    overflow: hidden;
+}
+
+footer .contenedor {
+    padding: 60px 0 10px;
+}
+
+/* Título */
+footer .contenedor h2 {
+    padding: 0;
+}
+
+footer .contenedor h2 a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0db39e;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer .contenedor h2 a:hover {
+    border-top: 3px solid #0db39e;
+    border-bottom: 3px solid #0db39e;
+}
+
+/* ---- Contenedor Redes Sociales ---- */
+footer .redes-sociales {
+    text-align: center;
+    padding: 10px 0 40px;
+}
+
+footer .redes-sociales a {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.9em;
+    padding: 5px 10px;
+    margin: 0 20px;
+    border-radius: 20%;
+}
+
+footer .redes-sociales a:hover {
+    transform: scale(1.2);
+}
+
+footer .redes-sociales a.icon-facebook-1 { background: #3b5998; }
+footer .redes-sociales a.icon-twitter { background: #1da1f2; }
+footer .redes-sociales a.icon-instagram { background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); }
+footer .redes-sociales a.icon-youtube-play { background: #ff0000; }
+
+/* ---- Contenedor contacto ---- */
+footer .vias-contacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+footer .vias-contacto .contacto {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+footer .vias-contacto .contacto h4 {
+    font-size: 1.4em;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #0db39e;
+    margin-bottom: 15px;
+}
+
+footer .vias-contacto .contacto p {
+    font-size: 1.15em;
+    line-height: 1.5em;
+    font-weight: 1.2em;
+}
+
+/* ---- Autor ---- */
+footer .contenedor h3 {
+    padding: 30px 0;
+    text-align: center;
+}
+

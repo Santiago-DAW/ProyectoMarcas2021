@@ -1,0 +1,98 @@
+/* ---- ---- ---- INICIO ---- ---- ---- */
+/* Variables */
+:root {
+    --color_inicio: #0db39e;
+}
+
+/* ---- Estilos generales ---- */
+.contenedor {
+    overflow: visible;
+}
+
+/* ---- Introduccion ---- */
+.introduccion {
+    background: var(--color_inicio);
+}
+
+.introduccion .contenedor h2 {
+    color: yellow;
+}
+
+.introduccion .tarjeta {
+    background: #f4f4f9;
+    box-shadow: 5px 5px 20px #000;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.introduccion .tarjeta .texto {
+    padding: 20px 30px;
+    text-align: justify;
+}
+
+.introduccion .tarjeta h3 {
+    margin: 30px 40px;
+}
+.introduccion .tarjeta p {
+    margin: 20px;
+    line-height: 1.5em;
+}
+
+/* ---- Contenidos ---- */
+.contenidos {
+    background: #f4f4f9;
+}
+
+.contenidos .contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.contenidos a:hover {
+    opacity: 0.65;
+}
+
+/* Tarjeta */
+.contenidos .tarjeta {
+    grid-column: span 1;
+    overflow: hidden;
+    
+    height: 19em;
+    color: #fff;
+    text-align: center;
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #000;
+}
+
+.contenidos .tarjeta .imagen {
+    width: 100%;
+    height: 12.5em;
+}
+
+.contenidos .tarjeta .imagen img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.contenidos .tarjeta h3,
+.contenidos .tarjeta p {
+    color: #fff;
+    text-shadow: 0 0 5px black;
+}
+.contenidos .tarjeta h3 {
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+.contenidos .tarjeta p {
+    font-size: 1.3em;
+    padding: 0 5%;
+}
+
+
+/* ---- ---- ---- ---- Media Queries ---- ---- ---- ---- */
+
+

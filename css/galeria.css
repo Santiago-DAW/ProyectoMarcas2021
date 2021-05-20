@@ -1,0 +1,85 @@
+/* ---- ---- ---- GALERIA ---- ---- ---- */
+/* Variables */
+:root {
+    --color_galeria: #16db93;
+}
+
+/* Pestaña galería */
+header nav .pestaña {
+    background: var(--color_galeria);
+}
+
+/* ---- Main ---- */
+main {
+    background: var(--color_galeria);
+    padding: 60px 0 60px;
+}
+
+/* Título contenedor */
+main h2 {
+    color: cadetblue;
+    font-family: monospace;
+}
+
+/* ---- Contenedor ---- */
+main .contenedor {
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 105px;
+    grid-gap: 20px;
+}
+
+/* Contenedor tarjeta */
+main .contenedor .tarjeta {
+    overflow: visible;
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+}
+
+.ancho {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+.ancho2 {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.cuadrado {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.alto {
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.alto2 {
+    grid-column: span 1;
+    grid-row: span 4;
+}
+
+/* Contenedor imagen */
+main .contenedor .tarjeta .imagen {
+    width: 100%;
+    height: 100%;
+    background: #000;
+
+    position: relative;
+}
+
+/* Texto */
+main .contenedor .tarjeta .imagen p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    color: #fff;
+    font-family: monospace;
+    padding: 10px 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+}
+main .contenedor .tarjeta .imagen p a,
+main .contenedor .tarjeta .imagen p a:visited {
+    color: blue;
+}

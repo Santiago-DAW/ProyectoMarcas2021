@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/iconos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/fontello.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="titulos">
+                <h1>Eagles</h1>
+                <p>Reyes de los cielos</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/html/informacion.html">Información</a></li>
+                    <li><a href="/html/galeria.html">Galería</a></li>
+                    <li><a href="/html/multimedia.html">Multimedia</a></li>
+                    <li><a class="pestaña" href="/html/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <h2>Contacto</h2>
+            <form action="" method="POST" autocomplete="on">
+                
+                <fieldset>
+                    <legend>Sus datos de contacto</legend>
+                    <input type="text" placeholder="Nombre" size="25" required>
+                    <input type="text" placeholder="Apellidos" size="30">
+                    <input type="email" placeholder="Correo" size="30" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Déjenos su mensaje</legend>
+                    <label>
+                        <input type="radio" id="queja" name="mensaje" value="queja" required>
+                        Deseo hacer una queja o reclamación.
+                    </label>
+                    <label>
+                        <input type="radio" id="sugerencia" name="mensaje" value="sugerencia">
+                        Deseo hacer una sugerencia.
+                    </label>
+                    <label>
+                        <input type="radio" id="mensaje" name="mensaje" value="mensaje">
+                        Deseo dejar un mensaje.
+                    </label>
+                    
+                    <textarea name="" id="" placeholder="Mensaje" maxlength="500"></textarea>
+                    
+                    <label>
+                        <input type="checkbox" id="confirmo" name="confirmo" value="confirmo">
+                        Deseo que se pongan en contacto conmigo.
+                    </label>
+                </fieldset>
+                
+                <input type="submit" value="Enviar" onclick="alert('Su mensaje ha diso enviado correctamente, gracias por confiar en nosotros.')">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <h2>Redes sociales</h2>
+            <div class="redes-sociales">
+                <a class="icon icon-facebook-1" href="https://es-es.facebook.com/" target="_blank"></a>
+                <a class="icon icon-twitter" href="https://twitter.com/" target="_blank"></a>
+                <a class="icon-instagram" href="https://www.instagram.com/" target="_blank"></a>
+                <a class="icon-youtube-play" href="https://www.youtube.com/" target="_blank"></a>
+            </div>
+
+            <h2>
+                <a href="/html/contacto.html">Contacto</a>
+            </h2>
+            <div class="vias-contacto">
+                <div class="contacto">
+                    <h4>Teléfono</h4>
+                    <p>91 850 96 96</p>
+                </div>
+                <div class="contacto">
+                    <h4>Email</h4>
+                    <p>mundo.aguilas@eagles.com</p>
+                </div>
+                <div class="contacto">
+                    <h4>Dirección</h4>
+                    <p>Avenida de las Águilas, S/N.</p>
+                    <p>28001 - Madrid (España)</p>
+                </div>
+            </div>
+            <h3 class="titulo-final">Santiago 1 Daw | Proyecto 2021&copy.</h3>
+        </div>
+    </footer>
+</body>
+</html>

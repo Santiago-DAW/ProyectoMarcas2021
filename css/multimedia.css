@@ -1,0 +1,59 @@
+/* ---- ---- ---- MULTIMEDIA ---- ---- ---- */
+/* Variables */
+:root {
+    --color_multimedia: #b9e769;
+}
+
+/* ---- ---- ---- Estilos Multimedia ---- ---- ---- */
+/* Pestaña multimedia */
+header nav .pestaña {
+    background: var(--color_multimedia);
+}
+
+/* Estilos generales */
+body {
+    background: #f4f4f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contenedor audio */
+.multimedia-audio {
+    background: var(--color_multimedia);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.audio {
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 5px solid var(--color_multimedia);
+}
+
+.audio p {
+    width: 55%;
+    padding: 11px 20px;
+    background: #fff;
+}
+
+audio {
+    width: 45%;
+}
+
+/* Contenedor video */
+.multimedia-video {
+    background: #f4f4f9;
+}
+
+.multimedia-video .contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.video {
+    grid-column: span 1;
+    overflow: hidden;
+}
+
+.video iframe {
+    width: 100%;
+}

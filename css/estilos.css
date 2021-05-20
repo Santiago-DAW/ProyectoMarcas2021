@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-size: 16px;
+    background: #0B0B0B;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pestaña {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Colores */
+.colores {
+    color: #54478c;
+    color: #2c699a;
+    color: #048ba8;
+    color: #0db39e;
+    color: #16db93;
+    color: #83e377;
+    color: #b9e769;
+    color: #f1c453;
+    color: #f29e4c;
+    color: #6d6875;
+    color: #f4f4f9;
+    color: #0B0B0B;
+}   
+
+section {
+    width: 100%;
+}
+
+.contenedor {
+    overflow: hidden;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main .contenedor,
+footer .contenedor {
+    padding: 40px 0 60px;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 0 20px;
+
+    grid-column: 1 / -1;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
