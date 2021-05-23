@@ -83,3 +83,134 @@ main .contenedor .tarjeta .imagen p a,
 main .contenedor .tarjeta .imagen p a:visited {
     color: blue;
 }
+
+
+/* ---- ---- ---- ---- ---- ---- ---- */
+/* ---- ---- Media Queries ---- ---- */
+@media screen and (max-width: 970px) {
+    main .contenedor {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .ancho {
+        grid-column: span 2;
+        grid-row: span 3;
+    }
+    .ancho2 {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+    .alto2 {
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .alto3 {
+        grid-row: span 4;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    main .contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .ancho {
+        grid-column: span 2;
+        grid-row: span 3;
+    }
+    .ancho2 {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+    .cuadrado {
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .alto {
+        grid-column: span 1;
+        grid-row: span 4;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .ancho2 {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .cuadrado {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+    .alto {
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .alto3,
+    .alto4 {
+        grid-row: span 4;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .ancho {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .ancho2 {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+    .cuadrado {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+    .alto {
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .alto2 {
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .alto3,
+    .alto4 {
+        grid-row: span 3;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main .contenedor {
+        grid-template-columns: 1fr;
+    }
+    
+    .ancho {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+    .ancho2 {
+        /* grid-column: span 1; */
+        grid-row: span 2;
+    }
+    .cuadrado {
+        grid-row: span 3;
+    }
+    .alto,
+    .alto2 {
+        grid-column: span 1;
+        grid-row: span 4;
+    }
+
+    .cuadrado,
+    .alto,
+    .alto2 {
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .cuadrado,
+    .alto,
+    .alto2 {
+        margin: 0;
+    }
+}

@@ -61,3 +61,41 @@ main .contenedor iframe {
     height: 100%;
     border: 3px solid #fff;
 }
+
+
+/* ---- ---- ---- ---- ---- ---- ---- */
+/* ---- ---- Media Queries ---- ---- */
+@media screen and (max-width: 830px) {
+    main .contenedor a {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    main .contenedor a {
+        display: table;
+        padding: 20px 0;
+    }
+    main .contenedor a h4 {
+        transform: rotate(-45deg);
+
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    main .contenedor a h4 {
+        transform: rotate(-60deg);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    main .contenedor a {
+        border-radius: 35px 10px 0 0;
+    }
+    main .contenedor a h4 {
+        transform: rotate(-80deg);
+        font-size: 1em;
+    }
+}

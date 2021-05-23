@@ -84,3 +84,50 @@ footer .contenedor h3 {
     text-align: center;
 }
 
+
+/* ---- ---- ---- ---- ---- ---- ---- */
+/* ---- ---- Media Queries ---- ---- */
+@media screen and (max-width: 930px) {
+    footer .contenedor {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    footer .contenedor {
+        font-size: 1em;
+    }
+    footer .vias-contacto {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    footer .vias-contacto .contacto {
+        grid-column: 2 / span 1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer .redes-sociales a {
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    footer .redes-sociales {
+        padding: 0 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        grid-row-gap: 0px;
+    }
+    footer .contenedor h2:nth-child(3) {
+        margin-top: 50px;
+    }
+    footer .redes-sociales a {
+        display: block;
+
+        font-size: 1.5em;
+        padding: 10px 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+}

@@ -30,7 +30,7 @@ form fieldset {
     padding: 20px 20px 30px;
     border: 2px solid #777474;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -50,7 +50,6 @@ form input[type="checkbox"],
 form textarea {
     grid-column: 1 / -1;
 }
-
 
 form input[type="text"],
 form input[type="email"],
@@ -80,10 +79,21 @@ form input[type="submit"] {
     width: 250px;
     margin: 0 auto;
     background: #4fb560;
-    /* border: 1px solid #4fb560; */
     color: #fff;
     padding: 10px;
     /* cursor: poninter; - podemos cambiar el tipo de cursor, en este caso se pone una mano con el indice señalando cuando colocamos el mouse sobre el elemento input de tipo submit. */
     cursor: pointer;
     border-radius: 3px;
+}
+
+
+/* ---- ---- ---- ---- ---- ---- ---- */
+/* ---- ---- Media Queries ---- ---- */
+@media screen and (max-width: 800px) {
+    form input[type="text"] {
+        grid-column: span 2;
+    }
+    form .ancho {
+        grid-column: span 2;
+    }
 }
