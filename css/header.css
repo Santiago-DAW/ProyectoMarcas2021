@@ -15,7 +15,7 @@ header {
 /* ---- Contenedor ---- */
 header .contenedor {
     height: 450px;
-    background: url("/imagenes/header1.jpg");
+    background: url("../imagenes/header1.jpg");
     background-size: auto 98%;
     background-position: 100% 0%;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ header .titulos {
     
     grid-column: span 2;
     grid-row: span 2;
-    align-self: end;
+    align-self: End;
 }
 
 header .titulos h1 {

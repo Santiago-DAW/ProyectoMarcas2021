@@ -16,7 +16,7 @@ main {
 
 form {
     padding: 40px 20px;
-    background-image: url("/imagenes/fondo-formulario.jpg");
+    background-image: url("../imagenes/fondo-formulario.jpg");
     background-size: cover;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
