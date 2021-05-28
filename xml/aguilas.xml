@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="aguilas.xsl" type="text/xsl"?>
+
+<aguilas>
+    <aguila continente="América">
+        <nombre_comun>Águila calva</nombre_comun>
+        <nombre_cientifico>Haliaeetus leucocephalus</nombre_cientifico>
+        <longitud >100 cm</longitud>
+        <embergadura_alar>2,5 m</embergadura_alar>
+        <peso>7 kg</peso>
+    </aguila>
+
+    <aguila continente="Asia">
+        <nombre_comun>Águila imperial oriental</nombre_comun>
+        <nombre_cientifico>Aquila heliaca</nombre_cientifico>
+        <longitud >80 cm</longitud>
+        <embergadura_alar>2 m</embergadura_alar>
+        <peso>4,5 kg</peso>
+    </aguila>
+
+    <aguila continente="Europa">
+        <nombre_comun>Águila imperial ibérica</nombre_comun>
+        <nombre_cientifico>Aquila adalberti</nombre_cientifico>
+        <longitud >83 cm</longitud>
+        <embergadura_alar>2,1 m</embergadura_alar>
+        <peso>3.5 kg</peso>
+    </aguila>
+
+    <aguila continente="América">
+        <nombre_comun>Águila arpía</nombre_comun>
+        <nombre_cientifico>Harpia harpyja</nombre_cientifico>
+        <longitud >100 cm</longitud>
+        <embergadura_alar>2 m</embergadura_alar>
+        <peso>7,35 kg</peso>
+    </aguila>
+
+    <aguila continente="América">
+        <nombre_comun>Águila crestuda real</nombre_comun>
+        <nombre_cientifico>Spizaetus ornatus</nombre_cientifico>
+        <longitud >35 cm</longitud>
+        <embergadura_alar>0,70 m</embergadura_alar>
+        <peso>1,6 kg</peso>
+    </aguila>
+
+    <aguila continente="Asia">
+        <nombre_comun>Águila monera</nombre_comun>
+        <nombre_cientifico>Pithecophaga jefferyi</nombre_cientifico>
+        <longitud >100 cm</longitud>
+        <embergadura_alar>2 m</embergadura_alar>
+        <peso>7 kg</peso>
+    </aguila>
+</aguilas>

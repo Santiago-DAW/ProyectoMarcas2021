@@ -1,0 +1,9 @@
+
+<!ELEMENT aguilas (aguila*)>
+    <!ELEMENT aguila (nombre_comun+, nombre_cientifico*, longitud+, embergadura_alar*, peso+)>
+    <!ATTLIST aguila continente CDATA #REQUIRED>
+        <!ELEMENT nombre_comun (#PCDATA)>
+        <!ELEMENT nombre_cientifico (#PCDATA)>
+        <!ELEMENT longitud (#PCDATA)>
+        <!ELEMENT embergadura_alar (#PCDATA)>
+        <!ELEMENT peso (#PCDATA)>
